@@ -1805,7 +1805,7 @@
 <p class="page-details">
   
     
-    <time datetime="2022-08-25 13:07:37 +0000">08/25/2022</time>
+    <time datetime="2022-12-14 18:27:31 +0000">12/14/2022</time>
     
   
 
@@ -1857,9 +1857,11 @@
 <p>如果您不再需要備份來執行其他資料保護作業、可以刪除SnapCenter VMware vSphere備份的VMware vCenter外掛程式。您可以同時刪除一個備份或刪除多個備份。</p>
 </div>
 <div class="paragraph">
+<div class="title">開始之前</div>
 <p>您無法刪除已掛載的備份。您必須先卸載備份、才能刪除備份。</p>
 </div>
 <div class="paragraph">
+<div class="title">關於這項工作</div>
 <p>二線儲存設備上的Snapshot複本是由ONTAP 您的不完整資料保留設定所管理、而非SnapCenter 由VMware外掛程式所管理。因此、當您使用SnapCenter VMware解決方法外掛程式刪除備份時、一線儲存設備上的Snapshot複本會被刪除、但二線儲存設備上的Snapshot複本不會被刪除。如果次要儲存設備上仍存在Snapshot複本、SnapCenter 則VMware插件會保留與備份相關的中繼資料、以支援還原要求。當保留程序刪除次要Snapshot複本時ONTAP 、SnapCenter VMware插件會使用清除工作刪除中繼資料、並定期執行。</p>
 </div>
 <div class="olist arabic">
