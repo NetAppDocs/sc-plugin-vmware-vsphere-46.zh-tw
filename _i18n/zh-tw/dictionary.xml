@@ -1676,7 +1676,6 @@
   <block id="d926b139950371ea24c296bdd377c68f" category="admonition">在還原作業期間、您可能會遇到「Host unresolved volume is null」（主機未解析磁碟區為null）或「調用選擇控制器上的預先還原時發生例外狀況...將複製的LUN掛載為資料存放區時發生錯誤...」 當VMware vCenter外掛程式嘗試重新簽署實體複本時、就會發生這種情況SnapCenter 。由於VMware的限制、SnapCenter 在進階ESXi組態中、VMware插件無法控制自動重新簽名值。</block>
   <block id="749560c83bd9672bf5dd0ec151afa4bf" category="paragraph">如需錯誤的詳細資訊、請參閱｛link with底線｝[KB文章：選擇控制器實體複製或還原失敗、並顯示錯誤「主機未解析的磁碟區為null」。</block>
   <block id="35b654fd14f12a33551c1993b5321fcb" category="summary">VMware vSphere（選擇控制器）的VMware外掛程式是Linux型虛擬應用裝置。SnapCenter獨立式環境可為VM、資料存放區及VMDK提供快速、節省空間、損毀一致且VM一致的備份與還原作業。它也能搭配SnapCenter 使用支援應用程式型的VMware環境備份與還原作業、以利SnapCenter 執行應用程式專屬的外掛程式。</block>
-  <block id="8c3d0c00ea667e3e0723e5cdc6473a09" category="doc">VMware vSphere文件的VMware外掛程式SnapCenter</block>
   <block id="8eee55b6796025a56d2f872f6d002976" category="summary">當您為SnapCenter VMware vSphere資源群組的VMware vSphere資源群組設定備份排程時、排程會自動設定為SnapCenter 部署VMware外掛程式的時區。您可以使用SnapCenter VMware vSphere管理GUI的VMware vCenter外掛程式來修改該時區。</block>
   <block id="6dd1abee9040df7e39867c0ba2fbda95" category="paragraph">您必須知道SnapCenter VMware vSphere管理GUI適用的VMware vSphere Plug-in IP位址和登入認證。</block>
   <block id="b82ea8e02c2156c66f4aef98d37530e5" category="list-text">在「*設定*」頁面的「*日期與時間*」區段中、按一下「*編輯*」。</block>
@@ -1898,7 +1897,6 @@
   <block id="7608e75619cff3eeb4e8bce40481b456" category="sidebar">軟件文檔SnapCenter</block>
   <block id="11d88a82190664755120fc16494310df" category="sidebar">早期版本的選擇控制閥文件</block>
   <block id="74fe1f888648848c4fd5f85ae847a16c" category="sidebar">NetApp知識庫–選擇控制閥</block>
-  <block id="3390e3575b3e341afa2b7172ff5b33a7" category="sidebar">VMware vSphere的插件SnapCenter</block>
   <block id="8eea62084ca7e541d918e823422bd82e" category="paragraph-title">結果</block>
   <block id="0a52730597fb4ffa01fc117d9e71e3a9" category="paragraph-title">範例</block>
   <block id="52009bb7ee17227f566cd26a02caee56" category="inline-link-macro"><block ref="52009bb7ee17227f566cd26a02caee56" category="inline-link-rx"></block></block>
@@ -1909,4 +1907,6 @@
   <block id="dd38f906b37d412de7d1c1dcf4cbf31c" category="paragraph"><block ref="dd38f906b37d412de7d1c1dcf4cbf31c" category="inline-link-macro-rx"></block></block>
   <block id="8acb58cbd50ef1b468a020ee0bd351d3" category="inline-link-macro"><block ref="8acb58cbd50ef1b468a020ee0bd351d3" category="inline-link-rx"></block></block>
   <block id="2352c4e1f4d0024ade0869e00e6243f4" category="paragraph"><block ref="2352c4e1f4d0024ade0869e00e6243f4" category="inline-link-macro-rx"></block></block>
+  <block id="42e8a2d79a91b0d42222250a3b2e436c" category="sidebar">VMware vSphere（選擇控制器）的VMware外掛程式是Linux型虛擬應用裝置。SnapCenter獨立式環境可為VM、資料存放區及VMDK提供快速、節省空間、損毀一致且VM一致的備份與還原作業。它也能搭配SnapCenter 使用支援應用程式型的VMware環境備份與還原作業、以利SnapCenter 執行應用程式專屬的外掛程式。本文件庫說明適用於 VMware vSphere 4.6 版的 SnapCenter 外掛程式。</block>
+  <block id="208549901462fece5d6f3b783a3aefde" category="sidebar">適用於 VMware vSphere 4.6 的 SnapCenter 外掛程式文件</block>
 </blocks>
