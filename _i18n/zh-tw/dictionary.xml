@@ -352,7 +352,6 @@
   <block id="2395290c89dc49506ab9a866577db2ea" category="cell">顯示有關還原工作的總覽狀態資訊。按一下圖表上的區段/狀態、即可在「報告」索引標籤上查看具有該狀態的工作清單。對於每個工作、報告會列出工作ID、工作狀態、工作名稱、以及工作開始和結束時間。工作名稱包含Snapshot複本名稱。例如：「還原備份&lt;snapshot複製名稱&gt;」您可以下載HTML或CSV格式的「報告」表格。您也可以下載所有工作的「工作監控」工作記錄（不只是報告中的工作）。</block>
   <block id="5e959015896cfd3bbb41171b7d8fc743" category="cell">VM或資料存放區的上次保護狀態報告</block>
   <block id="8cc0e4b5a5103db908c5596542e3c27e" category="inline-link-macro">修改組態預設值</block>
-  <block id="2de3d3532345284dca9c38dba4d92cbe" category="cell">針對SnapCenter 由VMware插件管理的VM和資料存放區、顯示設定天數內的保護狀態總覽資訊。預設值為7天。若要修改屬性檔案中的值、請參閱 <block ref="ec1f607a31c22fe11674fd9604cd7f05" category="inline-link-macro-rx"></block>。按一下主要保護圖表上的區段/狀態、即可在「*報告*」索引標籤上查看具有該狀態的VM或資料存放區清單。受保護虛擬機器和資料存放區的VM或資料存放區保護狀態報告會顯示已在設定天數內備份的VM或資料存放區名稱、最新的Snapshot複本名稱、以及最新備份執行的開始和結束時間。未受保護VM或資料存放區的VM或資料存放區保護狀態報告會顯示在設定天數內沒有任何成功備份的VM或資料存放區名稱。您可以下載HTML或CSV格式的報告表格。您也可以下載所有工作的「工作監控」工作記錄（不只是報告中的工作）。此報告會在每小時重新整理外掛程式快取時重新整理。因此、報告可能不會顯示最近備份的VM或資料存放區。</block>
   <block id="8912c51ed3e90d14d6cf804c0214ea1c" category="summary">為了簡化vCenter Server RBAC的使用、SnapCenter VMware vCenter外掛程式提供一組預先定義的角色、讓使用者能夠執行SnapCenter 各項功能。此外、也有唯讀角色可讓使用者檢視SnapCenter 不含執行任何工作的資訊。</block>
   <block id="3b94205bc2616f2bf8416a810bbba1b8" category="doc">VMware SnapCenter vSphere隨附於VMware vSphere的VMware vCenter外掛程式的預先定義角色</block>
   <block id="77c302775318755425cb1d62abfc4040" category="paragraph">預先定義的角色具有必要的SnapCenter專屬權限和原生vCenter Server權限、可確保工作正確完成。此外、這些角色設定為擁有所有受支援版本vCenter Server所需的權限。</block>
@@ -1212,7 +1211,6 @@
   <block id="5990783a93858d845e12e401808f16f3" category="list-text">當二線儲存設備（鏡射保存庫）上的Snapshot複本數量達到上限時、在備份作業中登錄備份及套用保留的活動將失敗、並顯示下列錯誤：「此Snapshot複本目前被一或多個SnapMirror關係當成參考Snapshot複本使用。刪除Snapshot複本可能導致SnapMirror作業失敗</block>
   <block id="7cb7ec638ee3f628b5dd7b29b735054f" category="paragraph">若要修正此問題、請設定次要儲存設備的SnapMirror保留原則、以避免達到Snapshot複本的上限。</block>
   <block id="585f74b2337dcf50d5f84248087dbc7a" category="inline-link">關於使用角色型存取控制的資訊SnapCenter</block>
-  <block id="339d9a9c6148bb34e3d15a00f296465c" category="paragraph">如需系統管理員如何指派資源給使用者的相關資訊、請參閱<block ref="3c6a9a14d0d13aed475a45101fc3cc00" category="inline-link-rx"></block>。</block>
   <block id="a4ba122796d9be1187615f3e4e5f759f" category="list-text">如果您想要VM一致的備份、則必須安裝並執行VMware Tools。需要VMware工具來停止虛擬機器。VVol VM不支援VM一致的備份。</block>
   <block id="567ee5fafb197286f35c17cbadbca640" category="paragraph">這些精靈頁面上的大部分欄位都是不言自明的。下列資訊說明您可能需要指引的部分欄位。</block>
   <block id="406017c1f63a5ea525013c02ee27c794" category="list-text">在VMware vSphere Web用戶端的左側導覽器窗格中、按一下*原則*。</block>
@@ -1492,7 +1490,6 @@
   <block id="56c955267d90586c2d47c87be1d95cc4" category="list-text">將「shCBR.override-template」檔案複製到新檔案「\opt\netapp\scvservice\s獨立_aege\etc\scbr」目錄中的「shCBR.override」。</block>
   <block id="89321ccbd89a9e660bc76b0f2974632d" category="summary">VMware解決方法外掛程式採用SSL加密技術、可與用戶端瀏覽器進行安全通訊。SnapCenter雖然如此一來、便能跨線路啟用加密資料、建立新的自我簽署憑證、或是使用您自己的憑證授權單位（CA）基礎架構或協力廠商CA、確保該憑證對您的環境而言是獨一無二的。</block>
   <block id="9668b00eae1748d51afb7f725a15301a" category="inline-link">知識庫文章：如何建立及/或將SSL憑證匯入SnapCenter VMware vSphere的VMware外掛程式</block>
-  <block id="ba9184cb661fa8aa1f1e6f33c3d4f7b2" category="paragraph">請參閱<block ref="bf84a7958c466b4ea912f7e396459ac9" category="inline-link-rx"></block>。</block>
   <block id="60d5e6a078f542229c70f62d22f5d19a" category="summary">您可以將刪除的VM從資料存放區的主要或次要備份還原至所選的ESXi主機。</block>
   <block id="0b12c7bc8c57650d3bccce352eaf5119" category="doc">從備份還原刪除的VM</block>
   <block id="d6c2cf7a5e232dbc0143ea4754644660" category="paragraph">您可以將VM還原至下列位置：</block>
@@ -1909,4 +1906,7 @@
   <block id="2352c4e1f4d0024ade0869e00e6243f4" category="paragraph"><block ref="2352c4e1f4d0024ade0869e00e6243f4" category="inline-link-macro-rx"></block></block>
   <block id="42e8a2d79a91b0d42222250a3b2e436c" category="sidebar">VMware vSphere（選擇控制器）的VMware外掛程式是Linux型虛擬應用裝置。SnapCenter獨立式環境可為VM、資料存放區及VMDK提供快速、節省空間、損毀一致且VM一致的備份與還原作業。它也能搭配SnapCenter 使用支援應用程式型的VMware環境備份與還原作業、以利SnapCenter 執行應用程式專屬的外掛程式。本文件庫說明適用於 VMware vSphere 4.6 版的 SnapCenter 外掛程式。</block>
   <block id="208549901462fece5d6f3b783a3aefde" category="sidebar">適用於 VMware vSphere 4.6 的 SnapCenter 外掛程式文件</block>
+  <block id="6c0ad8767c3f6938eed064d72ff1e8e3" category="cell">此報告顯示由 SnapCenter VMware 外掛程式管理的虛擬機器和資料儲存在設定的天數內的保護狀態概覽資訊。預設值為 7 天。若要修改屬性檔案中的值，請參閱<block ref="716011655678aa6d92cdd15196f612ff" category="inline-link-macro-rx"></block>。按一下主保護圖表上的某個部分/狀態，即可在 *Reports* 索引標籤上查看具有該狀態的虛擬機器或資料儲存清單。受保護虛擬機器和資料儲存的「虛擬機器或資料儲存保護狀態報告」顯示在設定的天數內已備份的虛擬機器或資料儲存的名稱、最新 Snapshot 複本名稱，以及最近一次備份執行的開始和結束時間。未受保護虛擬機器或資料儲存的「虛擬機器或資料儲存保護狀態報告」顯示在設定的天數內沒有任何成功備份的虛擬機器或資料儲存的名稱。您可以下載 HTML 或 CSV 格式的報表表格。您也可以下載所有作業（而不僅僅是報表中的作業）的「作業監視器」作業日誌。此報告會在外掛程式快取重新整理時每小時重新整理一次。因此，報告可能不會顯示最近備份的虛擬機器或資料儲存。</block>
+  <block id="4ddfe5345c1893eaed7f3552ae181f2a" category="paragraph">請參閱<block ref="3cc65228ae073aa630520717edc687a9" category="inline-link-rx"></block>。</block>
+  <block id="9c6e71898eae8897a7d429e3065e5a68" category="paragraph">有關管理員如何為使用者指派資源的資訊，請參閱<block ref="d818f211a7449f29082596280ad483fa" category="inline-link-rx"></block>。</block>
 </blocks>
